@@ -2,6 +2,8 @@
 
 Die fertige Lernanwendung liegt in dist. dist/index.html kann direkt im Browser geöffnet werden; alle Bilder liegen lokal unter dist/assets. Es werden keine Schülerdaten versendet oder dauerhaft gespeichert. Antworten bleiben beim Wechsel zwischen Lernschritten erhalten, solange die Seite geöffnet bleibt; Neuladen setzt sie zurück.
 
+Für GitHub Pages liegt zusätzlich eine `index.html` im Hauptordner. Sie öffnet automatisch das Lernprogramm unter `dist/`. In den GitHub-Einstellungen muss Pages aus dem gewünschten Branch und dem Ordner `/ (root)` veröffentlicht werden.
+
 Enthalten ist ausschließlich die selbstständig zu bearbeitende Unterrichtseinheit „Wer frisst wen?“ für die Klasse 7.
 
 Prüfung: node verify.cjs. Statische Vorschau: node preview.cjs.
